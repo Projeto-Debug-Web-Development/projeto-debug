@@ -23,7 +23,7 @@ body {
   background: var(--bg-color);
 }
 
-.header {
+header {
   width: 100%;
   height: 70px;
   padding: 1rem;
