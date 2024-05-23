@@ -358,7 +358,7 @@ h1{
     /*background-image: linear-gradient(to right, #dc143c, bisque);*/
     background: var(--bg-color3);
   }
-  #btnMobile{
+  #btnmobile{
     display: flex;
     padding: 0.5rem 1rem;
     font-size: 1rem;
