@@ -1,7 +1,7 @@
 
 //MENU HAMBURGUER
 //DECLARANDO A VARIAVEL E PEGANDO O  ID
-const btnMobile = document.querySelector("#btnMobile");
+const btnmobile = document.querySelector("#btnmobile");
 //FUNÇÃO MENU
 function Menu(){
     //DECLARANDO A VARIAVEL E PEGANDO O  ID
@@ -10,7 +10,7 @@ function Menu(){
     navBar.classList.toggle("active");
 }
 //EVENTO QUE AO CLICAR CHAMA FUNÇÃO MENU
-btnMobile.addEventListener("clique", Menu);
+btnmobile.addEventListener("clique", Menu);
 
 
 /*criando o slideShow */
@@ -39,7 +39,7 @@ function slideShow() {
   setTimeout('slideshow()', time);
 }
 //executar toda a função
-slideshow();
+slideShow();
 
 
 
